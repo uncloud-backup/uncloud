@@ -24,3 +24,7 @@ uncloud = "uncloud.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/uncloud"]
+
+
+[pytest]
+testpaths = ["tests"]
